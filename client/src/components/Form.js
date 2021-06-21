@@ -44,7 +44,6 @@ const Form =({history})=> {
         <div className="form-group">
           <input
             type="date"
-            placeholder="Date of Birth"
             name="dob"
             value={dob} onChange={e=>onChange(e)}
           />
