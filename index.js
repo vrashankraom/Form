@@ -6,10 +6,6 @@ const path = require('path');
 connectDB();
 
 
-app.get('/',(req,res)=>{
-    res.send("Its working");
-});
-
 app.use('/user-form',require('./routes/form'));
 
 if (process.env.NODE_ENV === 'production') {
