@@ -22,4 +22,4 @@ const FormSchema = new mongoose.Schema({
     }
 });
 
-module.exports = Form = mongoose.model("form",FormSchema);
+module.exports = mongoose.model('form',FormSchema);
