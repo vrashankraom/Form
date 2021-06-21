@@ -42,6 +42,7 @@ const Form =({history})=> {
           />
         </div>
         <div className="form-group">
+        <h4>Date of Birth</h4>
           <input
             type="date"
             name="dob"

@@ -236,7 +236,7 @@
     margin-bottom: 3rem;
   }
 
-  @media (max-width: 700px) {
+  @media (max-width: 500px) {
     .container {
       margin-top: 8rem;
     }
@@ -256,4 +256,8 @@
     .lead {
       font-size: 1rem;
     }
+    body{
+      font-size: 0.75rem;
+    }
+    
 }

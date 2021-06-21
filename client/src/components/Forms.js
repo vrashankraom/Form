@@ -33,7 +33,7 @@ const Forms = () =>{
           <div>
               {forms.map((form,index) =>{
                   return(
-                   <div key={index}>
+                   <div key={index} >
                    <table>
                    
                    <tr><td><h2>&nbsp;Date:-</h2></td><td><h2>&nbsp;<Moment format='DD/MM/YYYY'>{form.date}</Moment></h2></td></tr>
