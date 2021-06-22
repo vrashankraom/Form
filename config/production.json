@@ -1,4 +1,4 @@
 {
-    "mongoURI":"mongodb+srv://VrashankRao:vrashank@cluster0.bakkp.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
-    "password":"mubskxeaqblkvltw"
+    "mongoURI":"Your MongoDB credential",
+    "password":"Password for Nodemailer"
 }
